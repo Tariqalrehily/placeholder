@@ -1,0 +1,31 @@
+/*Your challenge is to review a code snippet and improve it. Use the hint 
+tab to access the boilerplate files. Open the file called challenge3.scss. */
+
+@mixin border {
+    border: 1px solid #000;
+    border-radius: 10px;
+    @content; 
+}
+.container {
+    @include border{
+    width: 1280px;
+    background-color: #fff;
+    margin: 0 auto; 
+    }
+}
+
+.wrapper {
+    @include border{
+    float: left;
+    position: relative;
+    }
+}
+
+.item {
+    @include border{
+    font-size: 14px;
+    font-family: "Sans Pro", sans-serif;
+    font-weight: 700;
+    }
+}
+

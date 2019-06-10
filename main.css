@@ -1,0 +1,23 @@
+/*Your challenge is to review a code snippet and improve it. Use the hint 
+tab to access the boilerplate files. Open the file called challenge3.scss. */
+.container {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 1280px;
+  background-color: #fff;
+  margin: 0 auto; }
+
+.wrapper {
+  border: 1px solid #000;
+  border-radius: 10px;
+  float: left;
+  position: relative; }
+
+.item {
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Sans Pro", sans-serif;
+  font-weight: 700; }
+
+/*# sourceMappingURL=main.css.map */
